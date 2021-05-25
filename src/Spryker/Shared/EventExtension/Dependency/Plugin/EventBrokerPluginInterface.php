@@ -13,7 +13,7 @@ interface EventBrokerPluginInterface
 {
     /**
      * Specification:
-     * - TODO::add specification here
+     * - Transits events to the specific Event Broker.
      *
      * @api
      *
@@ -25,7 +25,7 @@ interface EventBrokerPluginInterface
 
     /**
      * Specification:
-     * - TODO::add specification here
+     * - Returns true if plugin supports requested `eventBusName`.
      *
      * @api
      *
@@ -33,5 +33,5 @@ interface EventBrokerPluginInterface
      *
      * @return bool
      */
-    public function isSupportEventBusName(string $eventBusName): bool;
+    public function isApplicable(string $eventBusName): bool;
 }
