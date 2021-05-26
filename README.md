@@ -2,7 +2,7 @@
 [![Latest Stable Version](https://poser.pugx.org/spryker/event-extension/v/stable.svg)](https://packagist.org/packages/spryker/event-extension)
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.3-8892BF.svg)](https://php.net/)
 
-EventDispatcherExtension module provides plugin interfaces used by EventDispatcher module.
+EventExtension module provides plugin interfaces used by Event module.
 
 ## Installation
 
