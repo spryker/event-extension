@@ -4,7 +4,7 @@
     <transfer name="Event">
         <property name="eventName" type="string"/>
         <property name="eventUuid" type="string"/>
-        <property name="timestamp" type="int"/>
+        <property name="timestamp" type="string"/>
         <property name="message" type="object"/>
         <property name="messageType" type="string"/>
     </transfer>
