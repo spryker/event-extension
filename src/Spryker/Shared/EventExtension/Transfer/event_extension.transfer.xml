@@ -11,6 +11,7 @@
 
     <transfer name="EventCollection">
         <property name="events" type="Event[]" singular="event"/>
+        <property name="eventBusName" type="string"/>
     </transfer>
 
 </transfers>
